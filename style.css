@@ -1,0 +1,492 @@
+* {
+    margin: 0;
+    padding: 0;
+    zoom: 1;
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+}
+
+.animate {
+    position: relative;
+}
+
+        /* ETO PONG TEXT ANIMATION CHINECK KO SA YOUTUBE PANO MAGLAGAY NG KEY FRAMES, tas diko na alam pinag gagawa ko atleast gumana sya HAHAHAH XD*/
+
+.animate::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: #ffffff;
+    animation: blinkCusor 0.1s steps(1) infinite;
+}
+
+@keyframes animate {
+
+    0%,
+    75% {
+        opacity: 1;
+    }
+
+    76%,
+    100% {
+        opacity: 0;
+    }
+}
+
+.animate h2 {
+    position: relative;
+    float: left;
+    bottom: -5px;
+    left: 30px;
+    font-size: 50px;
+    color: rgb(197, 231, 255);
+    text-transform: capitalize;
+    animation: typing 3s steps(13) infinite;
+    overflow: hidden;
+}
+
+.animate span {
+    color: rgb(255, 0, 0);
+}
+
+@keyframes typing {
+
+    0%,
+    100% {
+        width: 0;
+    }
+
+    30%,
+    60% {
+        width: 401.88px;
+    }
+}
+
+        /* MMMMMMMAAAAAAAAAAAAAAIIIIIIIIIIIIIIIINNNNNNN */
+
+#myvid {
+    position: cover;
+    position: absolute;
+    right: 0;
+    bottom: -30px;
+    min-width: 100%;
+    min-height: 100%;
+}
+.main {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.top{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: transparent;
+    background-size: cover;
+}
+
+#navbar {
+    position: fixed;
+    top: 0x;
+    left: -10px;
+    width: 100%;
+    display: block;
+    transition: top .5s;
+    background-color: transparent;
+}
+
+#navbar a{
+    float: right;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: line-through;
+    font-size: 30px;
+    padding: 20px;
+}
+
+#navbar a:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+.first {
+    width: 1800px;
+    height: auto;
+    margin: auto;
+    color: rgb(118, 255, 253);
+    position: relative;
+}
+
+.yes {
+    position: relative;
+    left: 65px;
+    bottom: -360px;
+    font-family: 'Times New Roman';
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.first h1 {
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    padding-left: 80px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+    color: rgb(38, 255, 0);
+}
+
+h1:hover {
+    color: rgb(255, 0, 0);
+    transition: 0.2s;
+}
+
+.first span {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-style: italic;
+
+}
+
+.yes:hover{
+    color: rgb(112, 255, 110);
+    transition: 0.2s;
+}
+
+span:hover {
+    color: rgb(0, 98, 255);
+    transition: 0.2s;
+}
+
+.first img {
+    float: left;
+    position: relative;
+    border-width: 1px;
+    border-radius: 50%;
+    border-style: groove;
+    border-color: aqua;
+    height: auto;
+    width: 300px;
+    left: 150px;
+}
+
+.icons a {
+    text-decoration: none;
+    color: rgb(21, 255, 0);
+}
+
+.icons ion-icon {
+    position: relative;
+    float: left;
+    color: rgb(7, 7, 7);
+    font-size: 70px;
+    padding-left: 30px;
+    left: -115px;
+    bottom: -380px;
+    transition: 0.3s;
+}
+
+.icons ion-icon:hover {
+    color: rgb(238, 0, 255);
+}
+
+/* ----------------------------------*/
+
+.main1{
+    position: static;
+    background: linear-gradient(to top, rgba(0,0,0,.4)50%,rgba(0,0,0,.4)50%), url("night.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 130vh;
+    padding: 100px;
+    width: 100%;
+    margin-top: -20px;
+}
+
+.main1 img{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    top: 40px;
+    height: 500px;
+    width: 500px;
+    border-style: ridge;
+    border-width: 3px;
+    border-color: #00e5ff;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+
+.main1 h1{
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Lucida Sans';
+    letter-spacing: 3px;
+    font-size: 50px;
+}
+
+.main1 span{
+    color: aqua;
+    font-size: 90px;
+}
+
+.main1 span:hover{
+    color: #ff0044;
+}
+
+.bio{
+    color: rgb(255, 255, 255);
+    float: left;
+    padding-left: 33%;
+    font-family: 'Lucida Sans';
+    letter-spacing: 3px;
+    padding-top: 100px;
+    font-size: 30px;
+}
+
+.bio span{
+    color: #aa7dff;
+    font-size: 40px;
+}
+
+.bio span:hover{
+    color: rgb(34, 255, 0);
+}
+
+            /* MMMMMMMMMMMMMMMMMMMAAAAAAAAAAAAAAAAAAAAAAAAAAAINNN 2*/
+
+.main2 {
+    width: 100%;
+    background: rgb(18, 18, 18);
+    padding-bottom: 50px;
+    background-size: cover;
+    height: 600px;
+    padding: 30px;
+}
+
+.aboutme{
+    display: flex;
+    margin-top: 20px;
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    font-weight: bolder;
+    color:rgb(200, 124, 255);
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tabs {
+    position: static;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    order: 1;
+    letter-spacing: 1px;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 500px;
+}
+
+.tabs input[type="radio"] {
+    display: none;
+}
+
+.tabs label {
+    color: rgb(0, 255, 238);
+    background: rgb(0, 0, 0);
+    width: 150px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    border-top-style: ridge;
+    border-left-style: ridge;
+    border-right-style: ridge;
+    border-width: 1px;
+}
+
+.tabs .tab {
+    position: static;
+    color: rgb(255, 244, 217);
+    width: 70%;
+    padding: 20px;
+    background: rgb(87, 87, 87);
+    font-size: 20px;
+    font-weight: bolder;
+    order: 1;
+    display: none;
+    text-align: center;
+    font-family: 'Times New Roman';
+    border-style: ridge;
+    border-width: 1px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+
+.tabs input[type="radio"]:checked+label+.tab {
+    display: block;
+}
+
+
+.tabs input[type="radio"]:checked+label {
+    background: rgb(87, 87, 87);
+}
+
+            /*MMMMMMMMMMMMMMMMMMAAAAAAAAAAAAAAAAAAAAAIIIIIIIIIINNN 3*/
+
+.main3 {
+    background: url(paint.jpg);
+    width: 100%;
+    padding: 100px 0px;
+    height: 780px;
+}
+
+.title h2 {
+    color: white;
+    font-size: 75px;
+    width: 1200px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.title h2:hover{
+    color: rgb(0, 255, 162);
+    transition: .2s;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #223136;
+    border-radius: 5px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border-style: groove;
+    border-color: black;
+    border-width: 3px;
+}
+
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #f90000;
+
+}
+
+h5 {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+h5:hover{
+    color: rgb(0, 255, 225);
+}
+
+.link p {
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.card .button {
+    position: relative;
+    background-color: #ff0000;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    top: 60px;
+    border-radius: 50px;
+    transition: .4s;
+}
+
+.card .button:hover {
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+
+        /*FOOOOOOOOOOOOOOTTTTTTTTTTTTTTEEEEEEEEEEEEEEEEEEEEEER*/
+
+footer{
+	position: relative;
+	width: 100%;
+	height: 300px;
+	background: #101010;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+footer p:nth-child(1){
+	font-size: 30px;
+    top: 10px;
+	color: rgb(64, 255, 0);
+	margin-bottom: 20px;
+	font-weight: bold;
+
+}
+footer p:nth-child(2){
+	color: rgb(0, 255, 183);
+	font-size: 25px;
+	width: 500px;
+	text-align: center;
+	line-height: 30px;
+}
+
+footer p:nth-child(3){
+	color: white;
+	font-size: 17px;
+	width: 500px;
+	text-align: center;
+	line-height: 25px;
+}
+
+/*coooontaaaaaactt*/
+
+.con1 {
+    background-color: #9d9d9d;
+    background-size: 500px;
+    width: 1800px;
+    color: rgb(118, 255, 253);
+    position: static;
+    justify-content: center;
+    align-items: center;
+}
+
+.con1 h1{
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    padding-left: 80px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+    color: rgb(38, 255, 0);
+}
